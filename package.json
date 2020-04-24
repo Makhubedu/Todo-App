@@ -1,0 +1,25 @@
+{
+    "name": "todo-app",
+    "version": "1.0.0",
+    "description": "This is the mordern todo list application.",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Makhubedu/Todo-App.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Makhubedu/Todo-App/issues"
+    },
+    "homepage": "https://github.com/Makhubedu/Todo-App#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.3",
+        "pg": "^8.0.3"
+    }
+}
